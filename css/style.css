@@ -1,0 +1,61 @@
+/* fonts */
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+ /* common css start */
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400 ;
+    color: #626262 ;
+ }
+ /* common css end */
+
+/* header start */
+header{}
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.logo{
+    margin-top: 6px;
+    width: 12%;
+    border: 1px solid red ;
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    border: 1px solid red ;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    display: inline-block;
+    padding: 0 65px;
+    text-decoration: none;
+    
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+
+}
+
+
+/* header end */
